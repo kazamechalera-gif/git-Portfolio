@@ -93,7 +93,7 @@ export const PROJECTS = [
     tags: ['Netbeans', 'MySQL', 'Java'],
     icon: '🖥️',
     color: '#f59e0b',
-    link: '#',
+    link: 'https://github.com/kazamechalera-gif/git-LoadtrackingSystem',
   },
   {
     title: 'GadgetCrate PH',
