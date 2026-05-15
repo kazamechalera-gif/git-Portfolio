@@ -28,7 +28,18 @@ export default function Projects() {
                 style={{ background: `radial-gradient(circle at top right, ${p.color}22, transparent 70%)` }}
               />
 
-              <div className={styles.icon}>{p.icon}</div>
+              {/* UPDATED ICON LOGIC */}
+              <div className={styles.icon}>
+                {typeof p.icon === 'string' && p.icon.startsWith('/') ? (
+                  <img 
+                    src={p.icon} 
+                    alt={p.title} 
+                   className={styles.projectIconImage}
+                />) : (
+                  p.icon
+                )}
+              </div>
+
               <h3 className={styles.title}>{p.title}</h3>
               <p className={styles.desc}>{p.desc}</p>
 

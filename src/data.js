@@ -8,8 +8,8 @@ export const PERSONAL = {
   initials: 'RSA',
   tagline: 'Building clean interfaces, scalable backends, and keeping hardware running — one line of code and one screw at a time.',
   location: 'Iloilo City, Philippines',
-  email: 'rolandshemalera@email.com',
-  course: 'BSIT 2-B',
+  email: 'kazamechalera@email.com',
+  course: 'Bachelor of Science in Information Technology',
   roles: [
     'Frontend Developer',
     'Backend Developer',
@@ -77,7 +77,7 @@ export const PROJECTS = [
     tags: ['React', 'JavaScript', 'CSS'],
     icon: '💼',
     color: '#10b981',
-    link: '#',
+    link: 'https://rsalera.netlify.app/',
   },
   {
     title: 'IT Support System',
@@ -99,7 +99,7 @@ export const PROJECTS = [
     title: 'GadgetCrate PH',
     desc: 'A specialized platform for buying and selling iPhones and laptops. Features secure transaction rules and product showcases.',
     tags: ['HTML', 'CSS', 'JavaScript', 'Bootstrap', 'Tailwind'],
-    icon: '📱',
+    icon: '/GadgetCrate.jpg',
     color: '#3b82f6',
     link: 'https://gadgetcratephkaz.netlify.app/',
   },

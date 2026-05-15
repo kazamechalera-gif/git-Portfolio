@@ -53,8 +53,27 @@
   margin-bottom: 14px;
   position: relative;
   z-index: 1;
+
+  width: 48px;          /* Sets a fixed width for the container */
+  height: 48px;         /* Sets a fixed height for the container */
+  display: flex;        /* Centers the emoji or image */
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
 }
 
+.icon img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+  border-radius: 4px;
+}
+.projectIconImage {
+  width: 45px;
+  height: 45px;
+  object-fit: contain;
+  display: block;
+}
 .title {
   font-family: 'Syne', sans-serif;
   color: #fff;
